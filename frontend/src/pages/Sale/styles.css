@@ -1,0 +1,53 @@
+header {
+  max-width: 1200px;
+}
+
+main {
+  padding: 10px;
+}
+
+.sale-container {
+  height: 517px;
+  background-color: var(--primary-color);
+  padding: 40px 15px;
+}
+
+.sale-summary h1 {
+  font-size: 36px;
+}
+
+.sale-summary p {
+  font-size: 18px;
+  color: #8d8d8d;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding: 40px;
+  }
+  .sale-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    padding: 40px 15px;
+  }
+  .sale-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 421px;
+  }
+  .mr50 {
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    padding: 40px 120px;
+  }
+}
